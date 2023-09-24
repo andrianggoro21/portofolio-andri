@@ -343,9 +343,17 @@ body {
     justify-content: center;
     
 }
-#port-body a img {
-    width: 400px;
-    border-radius: 15px;
+@media screen and (min-width: 769px) {
+    #port-body a img {
+        width: 400px;
+        border-radius: 15px;
+    }
+}
+@media screen and (max-width: 768px) {
+    #port-body a img {
+        width: 100%;
+        border-radius: 15px;
+    }
 }
 
 /* contact */
